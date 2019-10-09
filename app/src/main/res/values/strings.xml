@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">RetrofitDemoApplication</string>
+    <string name="jsonparsing_error_message">Something went wrong with server</string>
+    <string name="internet_error_message">No internet connection found.\n Check your Connection</string>
+    <string name="exception_api_error_message">Something went wrong kindly try again</string>
+    <string name="get_data">Get Data</string>
+    <string name="send_data">Send Data</string>
+</resources>
