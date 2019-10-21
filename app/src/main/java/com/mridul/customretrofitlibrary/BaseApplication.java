@@ -1,9 +1,6 @@
-package com.mridul.retrofitdemoapplication;
+package com.mridul.customretrofitlibrary;
 
-import android.content.Context;
 import android.support.multidex.MultiDexApplication;
-
-import com.mridul.retrofitdemoapplication.Network.API;
 
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
@@ -20,17 +17,11 @@ import retrofit2.converter.scalars.ScalarsConverterFactory;
  */
 public class BaseApplication extends MultiDexApplication {
 
-    private static Context appContext;
     private static Retrofit retrofit;
-
-    public static Context getAppContext() {
-        return appContext;
-    }
 
     @Override
     public void onCreate() {
         super.onCreate();
-        appContext = this;
     }
 
     @Override
@@ -38,7 +29,7 @@ public class BaseApplication extends MultiDexApplication {
         super.onTerminate();
     }
 
-    public static Retrofit getRetrofitInstance() {
+    public static Retrofit getRetrofitInstance(String baseUrl) {
 
         if (retrofit != null)
             return retrofit;
@@ -59,7 +50,7 @@ public class BaseApplication extends MultiDexApplication {
 
         retrofit = new Retrofit.Builder()
                 .addConverterFactory(ScalarsConverterFactory.create())
-                .baseUrl(API.BASE_URL)
+                .baseUrl(baseUrl)
                 .client(httpClient.build()).build();
         return retrofit;
     }

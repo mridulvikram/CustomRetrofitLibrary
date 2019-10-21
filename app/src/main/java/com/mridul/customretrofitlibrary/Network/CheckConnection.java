@@ -1,4 +1,4 @@
-package com.mridul.retrofitdemoapplication.Network;
+package com.mridul.customretrofitlibrary.Network;
 
 import android.content.Context;
 import android.net.ConnectivityManager;

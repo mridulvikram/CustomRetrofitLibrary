@@ -1,10 +1,10 @@
-package com.mridul.retrofitdemoapplication.Network;
+package com.mridul.customretrofitlibrary.Network;
 
 import android.content.Context;
 import android.util.Log;
 
-import com.mridul.retrofitdemoapplication.BaseApplication;
-import com.mridul.retrofitdemoapplication.R;
+import com.mridul.customretrofitlibrary.BaseApplication;
+import com.mridul.customretrofitlibrary.R;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -32,9 +32,9 @@ public class NetworkCall {
         this.context = context;
     }
 
-    public void NetworkAPICall(final String apiType, final boolean showprogress) {
+    public void NetworkAPICall(final String baseUrl, final String apiType, final boolean showprogress) {
         Log.e(TAG, "================" + apiType);
-        APIInterface service = BaseApplication.getRetrofitInstance().create(APIInterface.class);
+        APIInterface service = BaseApplication.getRetrofitInstance(baseUrl).create(APIInterface.class);
         if (CheckConnection.isConnected(context)) {
             if (showprogress) mprogress.show();
             call = networkCallBack.getAPI(apiType, service);
@@ -45,7 +45,7 @@ public class NetworkCall {
                     if (response.body() != null && response.isSuccessful()) {
                         String jsonString = response.body();
                         try {
-                            if (jsonString != null && !jsonString.isEmpty()) {
+                            if (!jsonString.isEmpty()) {
                                 JSONObject jsonObject = new JSONObject(jsonString);
                                     networkCallBack.SuccessCallBack(jsonObject, apiType);
                             } else {
@@ -73,14 +73,5 @@ public class NetworkCall {
     public void cancelRequest() {
         if (call != null)
             call.cancel();
-    }
-
-    public interface NetworkCallBack {
-
-        Call<String> getAPI(String apitype, APIInterface service);
-
-        void SuccessCallBack(JSONObject jsonstring, String apitype) throws JSONException;
-
-        void ErrorCallBack(String jsonstring, String apitype);
     }
 }

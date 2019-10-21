@@ -1,11 +1,9 @@
-package com.mridul.retrofitdemoapplication.Network;
+package com.mridul.customretrofitlibrary.Network;
 
 import android.app.Dialog;
 import android.content.Context;
-import android.widget.ImageView;
-import android.widget.ProgressBar;
 
-import com.mridul.retrofitdemoapplication.R;
+import com.mridul.customretrofitlibrary.R;
 
 /**
  * Created by mridul on 08/08/19.
@@ -13,7 +11,7 @@ import com.mridul.retrofitdemoapplication.R;
 
 public class Progress extends Dialog {
 
-    public Progress(Context context) {
+    Progress(Context context) {
         super(context, android.R.style.Theme_Translucent_NoTitleBar);
         setContentView(R.layout.progress_layout);
         super.setCancelable(false);
