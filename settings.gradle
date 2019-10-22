@@ -1,0 +1,2 @@
+include ':app', ':customretrofitlibrary'
+rootProject.name='RetrofitDemoApplication'
