@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">CustomRetrofitLibrary</string>
+    <string name="exception_api_error_message">Something went wrong kindly try again</string>
+    <string name="internet_error_message">No internet connection found.\n Check your Connection</string>
+    <string name="jsonparsing_error_message">Something went wrong with server</string>
 </resources>

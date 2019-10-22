@@ -1,26 +1,34 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\mridul\Projects\Android\AndrodWFP\DemoApplication\customretrofitlibrary\src\main\AndroidManifest.xml:1:1-2:50
-INJECTED from D:\mridul\Projects\Android\AndrodWFP\DemoApplication\customretrofitlibrary\src\main\AndroidManifest.xml:1:1-2:50
-INJECTED from D:\mridul\Projects\Android\AndrodWFP\DemoApplication\customretrofitlibrary\src\main\AndroidManifest.xml:1:1-2:50
-INJECTED from D:\mridul\Projects\Android\AndrodWFP\DemoApplication\customretrofitlibrary\src\main\AndroidManifest.xml:1:1-2:50
-INJECTED from D:\mridul\Projects\Android\AndrodWFP\DemoApplication\customretrofitlibrary\src\main\AndroidManifest.xml:1:1-2:50
-INJECTED from D:\mridul\Projects\Android\AndrodWFP\DemoApplication\customretrofitlibrary\src\main\AndroidManifest.xml:1:1-2:50
-INJECTED from D:\mridul\Projects\Android\AndrodWFP\DemoApplication\customretrofitlibrary\src\main\AndroidManifest.xml:1:1-2:50
+ADDED from D:\mridul\Projects\Android\AndrodWFP\DemoApplication\customretrofitlibrary\src\main\AndroidManifest.xml:1:1-7:12
+INJECTED from D:\mridul\Projects\Android\AndrodWFP\DemoApplication\customretrofitlibrary\src\main\AndroidManifest.xml:1:1-7:12
+INJECTED from D:\mridul\Projects\Android\AndrodWFP\DemoApplication\customretrofitlibrary\src\main\AndroidManifest.xml:1:1-7:12
+INJECTED from D:\mridul\Projects\Android\AndrodWFP\DemoApplication\customretrofitlibrary\src\main\AndroidManifest.xml:1:1-7:12
+INJECTED from D:\mridul\Projects\Android\AndrodWFP\DemoApplication\customretrofitlibrary\src\main\AndroidManifest.xml:1:1-7:12
+INJECTED from D:\mridul\Projects\Android\AndrodWFP\DemoApplication\customretrofitlibrary\src\main\AndroidManifest.xml:1:1-7:12
+INJECTED from D:\mridul\Projects\Android\AndrodWFP\DemoApplication\customretrofitlibrary\src\main\AndroidManifest.xml:1:1-7:12
 	package
 		ADDED from D:\mridul\Projects\Android\AndrodWFP\DemoApplication\customretrofitlibrary\src\main\AndroidManifest.xml:2:5-47
 		INJECTED from D:\mridul\Projects\Android\AndrodWFP\DemoApplication\customretrofitlibrary\src\main\AndroidManifest.xml
 		INJECTED from D:\mridul\Projects\Android\AndrodWFP\DemoApplication\customretrofitlibrary\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\mridul\Projects\Android\AndrodWFP\DemoApplication\customretrofitlibrary\src\main\AndroidManifest.xml
-		ADDED from D:\mridul\Projects\Android\AndrodWFP\DemoApplication\customretrofitlibrary\src\main\AndroidManifest.xml:1:1-2:50
+		ADDED from D:\mridul\Projects\Android\AndrodWFP\DemoApplication\customretrofitlibrary\src\main\AndroidManifest.xml:1:1-7:12
 		INJECTED from D:\mridul\Projects\Android\AndrodWFP\DemoApplication\customretrofitlibrary\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from D:\mridul\Projects\Android\AndrodWFP\DemoApplication\customretrofitlibrary\src\main\AndroidManifest.xml
-		ADDED from D:\mridul\Projects\Android\AndrodWFP\DemoApplication\customretrofitlibrary\src\main\AndroidManifest.xml:1:1-2:50
+		ADDED from D:\mridul\Projects\Android\AndrodWFP\DemoApplication\customretrofitlibrary\src\main\AndroidManifest.xml:1:1-7:12
 		INJECTED from D:\mridul\Projects\Android\AndrodWFP\DemoApplication\customretrofitlibrary\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\mridul\Projects\Android\AndrodWFP\DemoApplication\customretrofitlibrary\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\mridul\Projects\Android\AndrodWFP\DemoApplication\customretrofitlibrary\src\main\AndroidManifest.xml:4:5-79
+	android:name
+		ADDED from D:\mridul\Projects\Android\AndrodWFP\DemoApplication\customretrofitlibrary\src\main\AndroidManifest.xml:4:22-76
+uses-permission#android.permission.INTERNET
+ADDED from D:\mridul\Projects\Android\AndrodWFP\DemoApplication\customretrofitlibrary\src\main\AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from D:\mridul\Projects\Android\AndrodWFP\DemoApplication\customretrofitlibrary\src\main\AndroidManifest.xml:5:22-64
 uses-sdk
 INJECTED from D:\mridul\Projects\Android\AndrodWFP\DemoApplication\customretrofitlibrary\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\mridul\Projects\Android\AndrodWFP\DemoApplication\customretrofitlibrary\src\main\AndroidManifest.xml

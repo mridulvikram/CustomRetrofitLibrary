@@ -865,8 +865,11 @@ public final class R {
         public static int abc_shareactionprovider_share_with_application = 0x7f15001a;
         public static int abc_toolbar_collapse_description = 0x7f15001b;
         public static int app_name = 0x7f15001c;
-        public static int search_menu_title = 0x7f15001d;
-        public static int status_bar_notification_info_overflow = 0x7f15001e;
+        public static int exception_api_error_message = 0x7f15001d;
+        public static int internet_error_message = 0x7f15001e;
+        public static int jsonparsing_error_message = 0x7f15001f;
+        public static int search_menu_title = 0x7f150020;
+        public static int status_bar_notification_info_overflow = 0x7f150021;
     }
     public static final class style {
         public static int AlertDialog_AppCompat = 0x7f160001;
