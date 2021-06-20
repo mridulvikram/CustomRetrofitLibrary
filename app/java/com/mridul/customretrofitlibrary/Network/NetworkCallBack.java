@@ -9,7 +9,7 @@ public interface NetworkCallBack {
 
     Call<String> getAPI(String apitype, APIInterface service);
 
-    void SuccessCallBack(JSONObject jsonstring, String apitype) throws JSONException;
+    void SuccessCallBack(String jsonstring, String apitype) throws JSONException;
 
     void ErrorCallBack(String jsonstring, String apitype);
 }
