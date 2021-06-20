@@ -46,8 +46,8 @@ public class NetworkCall {
                         String jsonString = response.body();
                         try {
                             if (!jsonString.isEmpty()) {
-                                JSONObject jsonObject = new JSONObject(jsonString);
-                                    networkCallBack.SuccessCallBack(jsonObject, apiType);
+//                                 JSONObject jsonObject = new JSONObject(jsonString);
+                                    networkCallBack.SuccessCallBack(jsonString, apiType);
                             } else {
                                 networkCallBack.ErrorCallBack(context.getString(R.string.jsonparsing_error_message), apiType);
                             }
